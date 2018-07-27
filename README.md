@@ -1,4 +1,4 @@
-# Macramé and SafeCondig Intellij scala plugin
+# Macramé and Safe Config Intellij scala plugin
 
 Plagin that implements Macramé and Safe-condig macroses support in IntelliJ IDEA
 
