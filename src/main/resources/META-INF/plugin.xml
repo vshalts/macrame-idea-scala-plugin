@@ -1,0 +1,30 @@
+<!DOCTYPE idea-plugin PUBLIC "Plugin/DTD" "http://plugins.jetbrains.com/plugin.dtd">
+<idea-plugin url="https://github.com/vshalts/macrame-idea-scala-plugin" version="2"
+             xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <id>com.vshalts.macrame.macro.plugin</id>
+    <name>Scala macro support for Macrame and Safe condig</name>
+    <version>1.0</version>
+    <vendor email="vshalts@gmail.com">Vadim Shalts</vendor>
+
+    <description><![CDATA[
+      Support for Macrame and Safe config macroses
+    ]]></description>
+
+    <change-notes><![CDATA[
+      No changes
+    ]]>
+    </change-notes>
+
+    <idea-version since-build="181.0" until-build="183.0"/>
+
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.java</depends>
+    <depends>org.intellij.scala</depends>
+
+    <extensions defaultExtensionNs="org.intellij.scala">
+        <syntheticMemberInjector implementation="com.vshalts.macros.injector.MacrameInjector"/>
+        <syntheticMemberInjector implementation="com.vshalts.macros.injector.SafeConfigInjector"/>
+    </extensions>
+
+</idea-plugin>
