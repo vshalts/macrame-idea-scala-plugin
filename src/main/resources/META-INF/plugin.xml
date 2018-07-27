@@ -3,7 +3,7 @@
              xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <id>com.vshalts.macrame.macro.plugin</id>
-    <name>Scala macro support for Macrame and Safe condig</name>
+    <name>Scala Macrame and Safe condig</name>
     <version>1.0</version>
     <vendor email="vshalts@gmail.com">Vadim Shalts</vendor>
 
