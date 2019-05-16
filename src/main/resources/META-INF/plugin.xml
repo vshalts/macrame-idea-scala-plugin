@@ -4,7 +4,7 @@
 
     <id>com.vshalts.macrame.macro.plugin</id>
     <name>Scala Macrame and Safe condig</name>
-    <version>1.1</version>
+    <version>1.2</version>
     <vendor email="vshalts@gmail.com">Vadim Shalts</vendor>
 
     <description><![CDATA[
@@ -16,7 +16,7 @@
     ]]>
     </change-notes>
 
-    <idea-version since-build="183.0" until-build="191.0"/>
+    <idea-version since-build="183.0" until-build="192.0"/>
 
     <depends>com.intellij.modules.lang</depends>
     <depends>com.intellij.modules.java</depends>
