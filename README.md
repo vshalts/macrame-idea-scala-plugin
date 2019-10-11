@@ -19,5 +19,5 @@ Plagin that implements Macramé and Safe-condig macroses support in IntelliJ IDE
 
 # Hot To Use
 
-Build and install `./target/macrame-idea-scala-plugin-1.3.jar` into IDEA as plugin (or download release from github)
+Build and install `./target/macrame-idea-scala-plugin-1.4.jar` into IDEA as plugin (or download release from github)
 Be happy.
